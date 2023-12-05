@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+    <title>Document</title>
+  <style>
+    
+  </style>
+</head>
+
+
+<body>
+    
+      
+    <div class="row " style="margin: 20px; margin-left: 100px;">
+        
+      
+        {% for product in products %}
+        
+        <div class="col-6 col-md-4" id="card1" >
+            <div class="card" style="width: 250px; margin: 20px;" >
+            <a href="/sutler" id="ahref"><img src={{product.imageUrl}} class="card-img-top " style="width: 250x; height: 200px;" alt="..."></a>
+            <div class="card-body p-3 text-center">
+              <h5 class="card-title" >{{product.title}}</h5>
+              
+            </div>
+            
+          </div>
+          
+          
+            
+        </div>
+       
+        {% endfor %}
+     
+    </div>
+      
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" ></script>
+   
+</body>
+</html>

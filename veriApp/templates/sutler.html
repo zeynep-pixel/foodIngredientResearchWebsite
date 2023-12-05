@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+    <title>Document</title>
+    <style>
+        a:link {
+          text-decoration: none;
+        }
+        
+        a:visited {
+          text-decoration: none;
+        }
+        
+        a:hover {
+          text-decoration: none;
+        }
+        
+        a:active {
+          text-decoration: none;
+        }
+        </style>
+</head>
+
+
+<body>
+      
+    
+      <div class="row ">
+        <div class="col-3">
+            <div class="border" style="width: 300px; margin: 20px;"> <ul class="list-group list-group-flush">
+                <a href="/laktozsuzSut"><li class="list-group-item">Laktozsuz </li></a>
+                <a href="/glutensizSut"><li class="list-group-item">Glutensiz </li></a>
+            </ul></div>
+        </div>
+       
+        {% for sut in sutler %}
+        
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src={{sut.imageUrl}} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{sut.title}}</h5>
+              <p class="card-text">{{sut.icindekiler}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{sut.kalori}}</li>
+              {% if sut.gluten == True %}<li class="list-group-item">Gluten İçerir</li>{% endif %}
+              {% if sut.gluten == False %}<li class="list-group-item">Gluten İçermez</li>{% endif %}
+              {% if sut.laktoz == True %}<li class="list-group-item">Laktoz İçerir</li>{% endif %}
+              {% if sut.laktoz == False %}<li class="list-group-item">Laktoz İçermez</li>{% endif %}
+              {% if sut.helal == True %}<li class="list-group-item">Helal Sertifikalı</li>{% endif %}
+              {% if sut.helal == False %}<li class="list-group-item">Helal Sertifikası içermez</li>{% endif %}
+              <li class="list-group-item">{{sut.mensai}}</li>
+
+
+            </ul>
+           
+          </div>
+         
+          {% endfor %}
+          
+        
+          
+        
+      </div>
+      
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" ></script>
+   
+</body>
+</html>
