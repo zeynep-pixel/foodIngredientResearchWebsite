@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
     <title>Document</title>
+    <style>
+      
+    </style>
     
 </head>
 
 
 <body>
     
-      <div class="row " style="margin: 20px; margin-left: 100px;">
+      <div class="row" style="margin: 20px; margin-left: 100px;">
         {% for section in sections %}
         <div class="col-6 col-md-4"  ><div class="card" style="width: 250px; margin: 20px;" >
-            <a href="/sutUrunlerı"><img src={{section.imageUrl}} class="card-img-top" alt="..." style="width: 250x; height: 200px;"></a>
+            <a href={{ section.slug}}><img id="bb" src={{section.imageUrl}} class="card-img-top" alt="..." style="width: 250x; height: 200px;"></a>
             <div class="card-body text-center p-3">
               <h5 class="card-title " >{{section.title}}</h5>
               
@@ -23,13 +26,26 @@
           </div>
         </div>
         {% endfor %}
+
+       
+        
+        
+       
           
           
 
       </div>
+
+
+     
+
+     
       
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" >
+     
+  </script>
+ 
    
 </body>
 </html>

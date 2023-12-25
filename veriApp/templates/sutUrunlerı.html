@@ -5,36 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
     <title>Document</title>
-  <style>
-    
-  </style>
+    <style>
+      a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: none;
+      }
+      
+      a:active {
+        text-decoration: none;
+      }
+      </style>
 </head>
 
 
 <body>
     
       
-    <div class="row " style="margin: 20px; margin-left: 100px;">
+    <div class="row " style="margin: 50px; margin-left: 10px;">
         
-      
+      <div class="col-3">
         {% for product in products %}
         
-        <div class="col-6 col-md-4" id="card1" >
-            <div class="card" style="width: 250px; margin: 20px;" >
-            <a href="/sutler" id="ahref"><img src={{product.imageUrl}} class="card-img-top " style="width: 250x; height: 200px;" alt="..."></a>
-            <div class="card-body p-3 text-center">
-              <h5 class="card-title" >{{product.title}}</h5>
+        
+          <div class="border" style="width: 300px; margin: 20px;"> <ul class="list-group list-group-flush">
+              <a href="/sutler"><li class="list-group-item">{{product.title}}</li></a>
               
-            </div>
-            
-          </div>
-          
-          
-            
-        </div>
+          </ul></div>
+      
        
         {% endfor %}
-     
+
+      </div>
+      <div class="col">
+        <div class="row">
+        {% for sut in sutler %}
+        
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src={{sut.imageUrl}} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{sut.title}}</h5>
+              <p class="card-text">{{sut.icindekiler}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{sut.kalori}}</li>
+              {% if sut.gluten == True %}<li class="list-group-item">Gluten İçerir</li>{% endif %}
+              {% if sut.gluten == False %}<li class="list-group-item">Gluten İçermez</li>{% endif %}
+              {% if sut.laktoz == True %}<li class="list-group-item">Laktoz İçerir</li>{% endif %}
+              {% if sut.laktoz == False %}<li class="list-group-item">Laktoz İçermez</li>{% endif %}
+              {% if sut.helal == True %}<li class="list-group-item">Helal Sertifikalı</li>{% endif %}
+              {% if sut.helal == False %}<li class="list-group-item">Helal Sertifikası içermez</li>{% endif %}
+              <li class="list-group-item">{{sut.mensai}}</li>
+
+
+            </ul>
+           
+          </div>
+         
+          {% endfor %}
+          {% for yogurt in yogurtlar %}
+        
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src={{yogurt.imageUrl}} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{yogurt.title}}</h5>
+              <p class="card-text">{{yogurt.icindekiler}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{yogurt.kalori}}</li>
+              {% if yogurt.gluten == True %}<li class="list-group-item">Gluten İçerir</li>{% endif %}
+              {% if yogurt.gluten == False %}<li class="list-group-item">Gluten İçermez</li>{% endif %}
+              {% if yogurt.laktoz == True %}<li class="list-group-item">Laktoz İçerir</li>{% endif %}
+              {% if yogurt.laktoz == False %}<li class="list-group-item">Laktoz İçermez</li>{% endif %}
+              {% if yogurt.helal == True %}<li class="list-group-item">Helal Sertifikalı</li>{% endif %}
+              {% if yogurt.helal == False %}<li class="list-group-item">Helal Sertifikası içermez</li>{% endif %}
+              <li class="list-group-item">{{yogurt.mensai}}</li>
+
+
+            </ul>
+           
+          </div>
+         
+          {% endfor %}
+
+         
+      </div>
     </div>
       
       
