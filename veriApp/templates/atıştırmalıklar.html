@@ -93,6 +93,30 @@
           </div>
          
           {% endfor %}
+          {% for yogurt in bisküviler %}
+        
+        <div class="card" style="width: 18rem; margin: 20px;">
+            <img src={{yogurt.imageUrl}} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{yogurt.title}}</h5>
+              <p class="card-text">{{yogurt.icindekiler}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{yogurt.kalori}}</li>
+              {% if yogurt.gluten == True %}<li class="list-group-item">Gluten İçerir</li>{% endif %}
+              {% if yogurt.gluten == False %}<li class="list-group-item">Gluten İçermez</li>{% endif %}
+              {% if yogurt.laktoz == True %}<li class="list-group-item">Laktoz İçerir</li>{% endif %}
+              {% if yogurt.laktoz == False %}<li class="list-group-item">Laktoz İçermez</li>{% endif %}
+              {% if yogurt.helal == True %}<li class="list-group-item">Helal Sertifikalı</li>{% endif %}
+              {% if yogurt.helal == False %}<li class="list-group-item">Helal Sertifikası içermez</li>{% endif %}
+              <li class="list-group-item">{{yogurt.mensai}}</li>
+
+
+            </ul>
+           
+          </div>
+         
+          {% endfor %}
 
          
       </div>

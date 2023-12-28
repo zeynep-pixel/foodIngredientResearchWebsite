@@ -6,11 +6,14 @@ urlpatterns = [
     path("anasayfa", views.home),
     path("sutUrunlerı", views.sutUrunlerı),
     path("sutler", views.sutler),
-    path("baklagıller", views.baklagıller),
-    path("atıstırmalıklar", views.atıstırmalıklar),
-    path("makarnalar", views.makarnalar),
-    path("laktozsuzSut", views.laktozsuzSut),
-    path("glutensizSut", views.glutensizSut),
+    path("yogurtlar", views.yogurtlar),
+    path("peynirler", views.peynirler),
+    path("atıştırmalıklar", views.atıştırmalıklar),
+    path("çikolatalar", views.çikolatalar),
+    path("cipsler", views.cipsler),
+    path("bisküviler", views.bisküviler)
+  
+  
     
     
 

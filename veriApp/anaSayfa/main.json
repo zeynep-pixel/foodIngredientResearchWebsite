@@ -1,0 +1,14 @@
+{
+    "value": "Süt Ürünleri",
+    "imageurl": "https://img.freepik.com/free-photo/variety-dairy-products-cookies_23-2148239912.jpg?w=1060&t=st=1701710813~exp=1701711413~hmac=d42e993b4130c03781235729c72f2578bbd7ec502b2dbbd856185458a740197d",
+    "next": {
+      "value": "Temel İhtiyaçlar",
+      "next": {
+        "value": "Atıştırmalıklar",
+        "next": {
+          "value": 20,
+          "next": null
+        }
+      }
+    }
+  }

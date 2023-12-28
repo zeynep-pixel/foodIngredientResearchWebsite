@@ -8,6 +8,7 @@
                 {
                     "title":"Sütler",
                     "imageUrl":"https://img.freepik.com/free-photo/milk-glass-bottle-background-farm_1142-40886.jpg?t=st=1701682601~exp=1701686201~hmac=837adcdbce97d3d0bd163450ff8a7f29ff3bdaedd106063b2d678ab7ffe8f3c9&w=740",
+                    "slug":"/sutler",
                     "Sütler": [{
                         "title":"Torku Süt",
                         "kalori":"Kalori: 200",
@@ -42,7 +43,7 @@
                         "imageUrl":"https://images.migrosone.com/sanalmarket/product/11012000/11012000-ad06f1-1650x1650.jpg"
                     },
                     {
-                        "title":"İçim Rahat Laktozsuz Süt 1 L",
+                        "title":"İçim Rahat Laktozsuz Süt",
                         "kalori":"Kalori: 100ml/44.0 kalori",
                         "icindekiler":"Yarım yağlı inek sütü , laktaz enzimi .",
                         "gluten": true,
@@ -53,7 +54,7 @@
                         "imageUrl":"https://images.migrosone.com/sanalmarket/product/11010066/11010066-90d964-1650x1650.jpg"
                     },
                     {
-                        "title":"Sek Laktozsuz Pastörize Günlük Süt 1 L",
+                        "title":"Sek Laktozsuz Pastörize Günlük Süt",
                         "kalori":"Kalori: 200",
                         "icindekiler":"%3 Yağlı pastörize süt",
                         "gluten": false,
@@ -64,7 +65,7 @@
                         "imageUrl":"https://images.migrosone.com/sanalmarket/product/11019090/11019090-d555dc-1650x1650.jpg"
                     },
                     {
-                        "title":"Alpro Bademli İçecek 1 L",
+                        "title":"Alpro Bademli İçecek",
                         "kalori":"Kalori: 300",
                         "icindekiler":"Su , badem (2,3%) , şeker , trikalsiyum fosfat , deniz tuzu , stabilizörler (keçiboynuzu gamı , jellan gam) , emülgatör (lesitinler (ayçiçeği) , aroma verici , vitaminler (B2) , [Riboflavin] , B12 [Siyanokobalamin] , E [DL-alfa-tokoferil asetat] , D [Ergokalsiferol] , Eser miktarda sert kabuklu yemişler (yer fıstığı içermez) içerebilir .",
                         "gluten": false,
@@ -79,9 +80,9 @@
                     
                 },
                 {
-                    "title":"Yoğurtlar",
+                    "title":"Yogurtlar",
                     "imageUrl":"https://img.freepik.com/free-photo/greek-yoghurt_144627-27070.jpg?w=996&t=st=1701682488~exp=1701683088~hmac=16e324c284586a7f8c52b4a9ebe7ef6594d691fcc757c7b63b78de388072535f",
-                    "slug":",",
+                    "slug":"/yogurtlar",
                     "Yogurtlar": [{
                         "title":"Sütaş Kaymaksız Yoğurt",
                         "kalori":"Kalori: 200",
@@ -89,109 +90,264 @@
                         "gluten": true,
                         "helal": true,
                         "laktoz": true,
-                        "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/12500380/12500380-e81483.jpg"
-                    }]
-                },
-                {
-                    "title":"Peynirler",
-                    "imageUrl":"https://img.freepik.com/free-photo/french-swiss-cheeses-rustic-wood-tray-generated-by-ai_188544-17019.jpg?t=st=1701682650~exp=1701686250~hmac=8167222516938ecb44d18ddb458ec9471f02aee29c44074ae9f0683d88f82160&w=1380",
-                    "slug":",",
-                    "Peynirler": [{
-                        "title":"Sütaş Kaymaksız Yoğurt",
-                        "kalori":"Kalori: 200",
-                        "icindekiler":"Sadece inek sütü ve yoğurt mayasıyla üretilmiştir.",
-                        "gluten": true,
-                        "helal": true,
-                        "laktoz": true,
+                        "organik": false,
                         "mensai":"Menşei Ülke: Türkiye",
                         "imageUrl":"https://images.migrosone.com/sanalmarket/product/12500380/12500380-e81483.jpg"
                     },
                     {
-                        "title":"İçim Doğal Süt",
-                        "kalori":"Kalori: 200",
-                        "icindekiler":"%3 yağlı inek sütü",
+                        "title":"Pınar Laktozsuz Yarım Yağlı Yoğurt",
+                        "kalori":"Kalori: 150",
+                        "icindekiler":"Pastörize yarım yağlı inek sütü,yoğurt kültürü, laktaz enzimi.",
+                        "gluten": true,
+                        "helal": true,
+                        "laktoz": false,
+                        "organik": false,
+                        "mensai":"Menşei Ülke: Türkiye",
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/12501103/12501103-aa8bc3-1650x1650.jpg"
+                    },
+                    {
+                        "title":"İçim Organik Yoğurt",
+                        "kalori":"Kalori: 240",
+                        "icindekiler":"pastörize organik inek sütü , yoğurt mayası",
+                        "gluten": true,
+                        "helal": true,
+                        "laktoz": true,
+                        "organik": true,
+                        "mensai":"Menşei Ülke: Türkiye",
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/12502999/12502999-52af66-1650x1650.jpg"
+                    },
+                    {
+                        "title":"Eker Bidon Yoğurt",
+                        "kalori":"Kalori: 370",
+                        "icindekiler":"Pastörize ve homojenize inek sütü,yoğurt kültürü",
+                        "gluten": true,
+                        "helal": true,
+                        "laktoz": true,
+                        "organik": false,
+                        "mensai":"Menşei Ülke: Türkiye",
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/12509882/eker-bidon-yogurt-2-kg-278a3b-1650x1650.jpg"
+                    }]
+        },
+                {
+                    "title":"Peynirler",
+                    "imageUrl":"https://img.freepik.com/free-photo/french-swiss-cheeses-rustic-wood-tray-generated-by-ai_188544-17019.jpg?t=st=1701682650~exp=1701686250~hmac=8167222516938ecb44d18ddb458ec9471f02aee29c44074ae9f0683d88f82160&w=1380",
+                    "slug":"/peynirler",
+                    "Peynirler": [{
+                        "title":"Pınar Süzme Peynir",
+                        "kalori":"Kalori: 207,0",
+                        "icindekiler":"Pastörize inek sütü, peynir mayası, peynir kültürü ve tuz.",
+                        "helal": true,
+                        "laktoz": true,
+                        "mensai":"Menşei Ülke: Türkiye",
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/10019052/10019052-0f7953-1650x1650.jpg"
+                    },
+                    {
+                        "title":"İçim Taze Kaşar Peyniri",
+                        "kalori":"Kalori: 337",
+                        "icindekiler":"pastörize inek sütü, tuz, peynir kültürü, peynir mayası ve potasyum sorbat koruyucu",
                         "gluten": false,
                         "helal": true,
                         "laktoz": true,
                         "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/11013025/11013025-cf97ab-1650x1650.jpg"
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/10108647/10108647-8f6d94-1650x1650.jpg"
                     },
                     {
-                        "title":"Sek Süt",
-                        "kalori":"Kalori: 300",
-                        "icindekiler":"UHT Yağlı süt (%3 Yağlı)",
+                        "title":"Torku Süzme Peynir ",
+                        "kalori":"Kalori: 196",
+                        "icindekiler":"Pastörize inek sütü, peynir kültürü, peynir mayası, tuz",
                         "gluten": false,
                         "helal": true,
                         "laktoz": false,
                         "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/11012000/11012000-ad06f1-1650x1650.jpg"
+                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/10019074/torku-suzme-peynir-450-gr-a87c50-1650x1650.jpg"
                     }]
                 }
             ]
 
         },
-         {
-            "title":"Temel İhtiyaçlar",
-            "imageUrl":"https://img.freepik.com/free-photo/view-allergens-commonly-found-grains_23-2150170288.jpg?w=1060&t=st=1701710783~exp=1701711383~hmac=c407bd796aa42a30f0aec2a29bb08275936a0d5fa507c817e0a1a3e33c218ef6",
-            "slug":"",
-            "Temelİhtiyaçlar":[
-                {
-                    "title":"Baklagiller",
-                    "imageUrl":"https://img.freepik.com/free-photo/milk-glass-bottle-background-farm_1142-40886.jpg?t=st=1701682601~exp=1701686201~hmac=837adcdbce97d3d0bd163450ff8a7f29ff3bdaedd106063b2d678ab7ffe8f3c9&w=740",
-                    "Baklagiller": [{
-                        "title":"Torku Süt",
-                        "kalori":"Kalori: 200",
-                        "icindekiler":"% 1,5 yağlı inek sütü (hayvansal)",
-                        "gluten": true,
-                        "helal": true,
-                        "laktoz": true,
-                        "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/46054060/torku-yarim-yagli-sut-1l-17c30e-1650x1650.jpg"
-                    },
+         
+        {
+            
+                "title":"Atıştırmalıklar",
+                "imageUrl":"https://img.freepik.com/free-photo/flat-lay-assortment-with-salty-fruits_23-2148582644.jpg?w=1060&t=st=1703783879~exp=1703784479~hmac=aea24feae3e56ef595a4c0fcd2e088664227d9a249c9f84311467777efa4652e",
+                "slug":"/atıştırmalıklar",
+                "Atıştırmalıklar":[
+                 
                     {
-                        "title":"İçim Doğal Süt",
-                        "kalori":"Kalori: 200",
-                        "icindekiler":"%3 yağlı inek sütü",
-                        "gluten": false,
-                        "helal": true,
-                        "laktoz": true,
-                        "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/11013025/11013025-cf97ab-1650x1650.jpg"
-                    },
-                    {
-                        "title":"Sek Süt",
-                        "kalori":"Kalori: 300",
-                        "icindekiler":"UHT Yağlı süt (%3 Yağlı)",
-                        "gluten": false,
-                        "helal": true,
-                        "laktoz": false,
-                        "mensai":"Menşei Ülke: Türkiye",
-                        "imageUrl":"https://images.migrosone.com/sanalmarket/product/11012000/11012000-ad06f1-1650x1650.jpg"
-                    }
-                   
-                    ]
+                        "title":"Çikolatalar",
+                        "imageUrl":"https://img.freepik.com/free-photo/milk-glass-bottle-background-farm_1142-40886.jpg?t=st=1701682601~exp=1701686201~hmac=837adcdbce97d3d0bd163450ff8a7f29ff3bdaedd106063b2d678ab7ffe8f3c9&w=740",
+                        "slug":"/çikolatalar",
+                        "Çikolatalar": [
+                        {
+                            "title":"Ülker Bitter Kare Çikolata %80 Kakaolu ",
+                            "kalori":"Kalori: 546",
+                            "icindekiler":"Kakao kitlesi, şeker, kakao tozu, sade yağ (süt), emülgatörler (soya lesitini, poligliserol polirisinoleat), aroma verici. Kakao kuru maddesi en az %80?dır. Eser miktarda yer fıstığı, sert kabuklu meyveler, yumurta ürünü ve gluten içerebilir. Domuz yağı ve katkıları içermez.",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": true,
+                            "vegan": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/7038033/7038033-a1992c-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Torku Miniki Sütlü Çikolata ",
+                            "kalori":"Kalori: 620",
+                            "icindekiler":"Sütlü çikolata %50 [Şeker ,Kakao yağı ,Yağlı süt tozu (%21) ,Kakao kitlesi ,Yağsız süt tozu ,Demineralize peyniraltı suyu tozu (süt ürünü) ,Emülgatörler (ayçiçek lesitini ,Poligliserol polirisineoleat) ,Aroma verici (Vanilin) ,tuz] , Sütlü krema (%50) ,[şeker ,bitkisel yağ (Hurma ,kanola ,ayçiçek ,pamuk) ,Tam yağlı süt tozu (%11) ,Laktoz (süt ürünü) ,yağsız süt tozu ,demineralize ,peynir altı suyu tozu (süt ürünü) ,sadeyağ (süt ürünü) ,emülgatör (ayçiçek lesitini) ,aroma ,mineral ve vitamin karışımı (Ca ve D vitamini)",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": true,
+                            "vegan": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07035552/torku-miniki-sutlu-cikolata-88-g-fd718b-1650x1650.jpg"
+                        }, 
+                        {
+                            "title":"Toblerone Sütlü Çikolata ",
+                            "kalori":"Kalori: 620",
+                            "icindekiler":"Şeker ,tam yağlı süt tozu ,kakao yağı ,kakao kitlesi ,bal (%3) ,süt yağı ,badem (%1,6) ,emülgatör (soya lesitini) ,yumurta akı ,aroma verici (vanilin)",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": true,
+                            "vegan": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07040810/7040810-770b48-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Nestle Classic Sütlü Kare Çikolata ",
+                            "kalori":"Kalori: 345",
+                            "icindekiler":"şeker yağsız süttozu, kakao yağı, kakao kitlesi, süt yağı, peyniraltı suyu tozu ( süt ürünü ) emülgatör (ayçiçek lestini), tuz doğal aroma verici vanilya. Kakao kuru maddesi en az %29 dur. süt kuru maddesi en az %23 tür.",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": false,
+                            "vegan": true,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07037274/07037274-c477f0-1650x1650.jpg"
+                        }
+                        
+                       
                     
-                },
-                {
-                    "title":"Makarnalar",
-                    "imageUrl":"https://img.freepik.com/free-photo/greek-yoghurt_144627-27070.jpg?w=996&t=st=1701682488~exp=1701683088~hmac=16e324c284586a7f8c52b4a9ebe7ef6594d691fcc757c7b63b78de388072535f",
-                    "slug":","
-                },
-                {
-                    "title":"Bulgurlar",
-                    "imageUrl":"https://img.freepik.com/free-photo/french-swiss-cheeses-rustic-wood-tray-generated-by-ai_188544-17019.jpg?t=st=1701682650~exp=1701686250~hmac=8167222516938ecb44d18ddb458ec9471f02aee29c44074ae9f0683d88f82160&w=1380",
-                    "slug":","
-                }
+    
+                     ]
+                    },
+                    {
+                        "title":"Cipsler",
+                        "imageUrl":"https://img.freepik.com/free-photo/greek-yoghurt_144627-27070.jpg?w=996&t=st=1701682488~exp=1701683088~hmac=16e324c284586a7f8c52b4a9ebe7ef6594d691fcc757c7b63b78de388072535f",
+                        "slug":"/cipsler",
+                        "Cipsler": [{
+                            "title":"Doritos Turca Haşhaş Domates Mısır Cipsi ",
+                            "kalori":"Kalori: 523",
+                            "icindekiler":"Mısır, palm olein yağı, mısır nişastası, kurutulmuş domates çeşnisi %7 [peyniraltı suyu tozu (süt türevi ve laktoz içerir), tuz, şeker, asitlik düzenleyiciler (malik asit, sodyum hidrojen asetat), aroma arttırıcılar (monosodyum glutamat, disodyum 5 ribonükleotid), soğan tozu, domates tozu, sarımsak tozu, aroma vericiler, maydanoz, palm yağı, renklendirici (paprika ekstraktı)], haşhaş (%4).",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": true,
+                            "organik": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/05081406/05081406-497fe4-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Çerezza TV Süt Mısır Mısır Cipsi ",
+                            "kalori":"Kalori: 510",
+                            "icindekiler":"Mısır irmiği, kanola yağı, süt mısırı aromalı çeşni [peyniraltı suyu tozu (süt proteini ve laktoz içerir), şeker, aroma arttırıcılar (monosodyum glutamat, disodyum guanilat, disodyum inosinat), tuz, potasyum klorür, ısıl işlem aroma vericisi, maltodekstrin, ayçiçek yağı, aroma verici preparat (paprika ekstraktı, zerdeçal ekstraktı), aroma vericiler, tütsü aroma vericisi], şeker.",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": false,
+                            "organik": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/05081717/05081717-9e0d96-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Lay's Klasik Patates Cipsi",
+                            "kalori":"Kalori: 430",
+                            "icindekiler":"Patates, mısır yağı, tuz.",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": true,
+                            "organik": true,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/05082030/05082030-2f8327-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Ruffles Originals Patates Cipsi Mega",
+                            "kalori":"Kalori: 518",
+                            "icindekiler":"Patates, palm olein yağı, tuz.",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": true,
+                            "organik": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/05087053/05087053-2afd18-1650x1650.jpg"
+                        }]
+                    },
+                    {
+                        "title":"Bisküviler",
+                        "imageUrl":"https://img.freepik.com/free-photo/french-swiss-cheeses-rustic-wood-tray-generated-by-ai_188544-17019.jpg?t=st=1701682650~exp=1701686250~hmac=8167222516938ecb44d18ddb458ec9471f02aee29c44074ae9f0683d88f82160&w=1380",
+                        "slug":"/bisküviler",
+                        "Bisküviler": [{
+                            "title":"Haylayf Bisküvi",
+                            "kalori":"Kalori: 463",
+                            "icindekiler":"Buğday unu, şeker (%20), bitkisel yağ (palm), invert şeker şurubu, kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat, disodyum difosfat), tuz, yağsız süttozu, peyniraltı suyu tozu (süt), aroma vericiler (süt), un işlem maddesi (sodyum metabisülfit).",
+                            "gluten": true,
+                            "helal": true,
+                            "laktoz": true,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07011120/ulker-haylayf-64-gr-19be3b-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Halley Çikolata Kaplamalı Sandviç Bisküvi",
+                            "kalori":"Kalori: 440",
+                            "icindekiler":"Buğday unu, şeker, invert şeker şurubu, su, bitkisel yağ (palm), kakao yağı, kakao kitlesi, tam yağlı süttozu, yağsız süttozu, kabartıcılar (amonyum hidrojen karbonat, sodyum hidrojen karbonat, disodyum difosfat), nem verici (sorbitol), sığır jelatini, tuz, emülgatörler (amonyum fosfatidler, poligliserol polirisinoleat, soya lesitini), asitlik düzenleyici (sitrik asit), aroma vericiler (süt), yumurta, fındık, un işlem maddesi (sodyum metabisulfit). Eser miktarda susam içerebilir.",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": true,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07019484/07019484-b48423-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Biskrem Kakaolu",
+                            "kalori":"Kalori: 489",
+                            "icindekiler":"Buğday unu, şeker, bitkisel yağlar (palm, ayçiçek), invert şeker şurubu, yağı azaltılmış kakao tozu (%2,8), fındık püresi, yumurta, tuz, kabartıcılar (sodyum hidrojen karbonat, disodyum difosfat), tam yağlı süttozu, emülgatörler (soya lesitini, poligliserol polirisinoleat), aroma vericiler (süt), peyniraltı suyu tozu (süt), tuz.",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07011113/07011113-addd01-1650x1650.jpg"
+                        },
+                        {
+                            "title":"Eti Cicibebe Bisküvi",
+                            "kalori":"Kalori: 443",
+                            "icindekiler":"Buğday Unu (Gluten içerir), Şeker, Bitkisel Yağ (Palm, Ayçiçek, Pamuk, Kanola), Nişasta, Yağsız Pastörize Süt %2,8, Pastörize Yumurta %0,5, Kabartıcı (Amonyum Hidrojen Karbonat), Tuz, Mineraller (Kalsiyum, Magnezyum, Demir, Çinko, Bakır, Mangan, İyot), Vitamin Karışımı (A, E, C, D3, B1, B2, B6, B12, Niasin, Pantotenik Asit, Folik Asit, Biotin), Aroma Vericiler (Vanilin, Vanilya Ekstraktı).",
+                            "gluten": false,
+                            "helal": true,
+                            "laktoz": false,
+                            "mensai":"Menşei Ülke: Türkiye",
+                            "imageUrl":"https://images.migrosone.com/sanalmarket/product/07010051/07010051-183d22-1650x1650.jpg"
+                        }]
+                    }
+            
             ]
-            
+
+                  
         },
-         {
-            "title":"Atıştırmalık",
-            "imageUrl":"https://img.freepik.com/free-photo/top-view-fast-food-meal_23-2148273108.jpg?w=1060&t=st=1701699424~exp=1701700024~hmac=921d2ffa1f0068a65bdfce80384f582b7d26226e2ade1c0097ed63a5993cf8f1",
-            "slug":""
-            
+        {
+            "title":"Kahvaltılıklar",
+            "imageUrl":"https://img.freepik.com/free-photo/breakfast-platter-with-mixed-combination-foods_114579-2109.jpg?w=1060&t=st=1703523834~exp=1703524434~hmac=1bf0eca5da4ebb1b353169d671ccec673c048b382ac7739202eda1f911916e57",
+            "slug":"/kahvaltılıklar"
+        },
+        {
+            "title":"İçecekler",
+            "imageUrl":"https://img.freepik.com/free-photo/colorful-soda-drinks-macro-shot_53876-14909.jpg?w=1060&t=st=1703524064~exp=1703524664~hmac=ca324241961c49c0eec27b6d1cf4e867f8e22311f01e2e0f51ee9583526aaf30",
+            "slug":"/içecekler"
+        },
+        {
+            "title":"Tatlılar",
+            "imageUrl":"https://img.freepik.com/free-photo/assortment-pieces-cake_114579-30728.jpg?w=1060&t=st=1703524121~exp=1703524721~hmac=097c2374740af32df58236143197467dd0aaa4f79dd3e77182389555da2aaeb3",
+            "slug":"/tatlılar"
+        },
+        {
+            "title":"Temel Gıdalar",
+            "imageUrl":"https://img.freepik.com/free-photo/collection-common-food-allergens-people_23-2149870525.jpg?w=1060&t=st=1703784027~exp=1703784627~hmac=8ee2300e4db7cf6b220c8f562e23ea3c2a3e6e802ffae35ba366044afb7a3155",
+            "slug":"/tatlılar"
         }
+
 
     ]
     

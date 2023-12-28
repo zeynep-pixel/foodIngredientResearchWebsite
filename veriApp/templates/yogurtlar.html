@@ -56,7 +56,7 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" name="choose" id="Vegan" value="Vegan">
           <label class="form-check-label"for="Vegan">
-            Vegan
+            Organik
           </label>
         </div>
         <div style="padding-top: 20px; padding-left: 180px"><button type="submit" class="btn btn-success " >Submit</button></div>
@@ -66,7 +66,7 @@
   </div>
     <div class="col">
       <div class="row">
-      {% for sut in sutler %}
+      {% for sut in yogurtlar %}
       
       <div class="card" style="width: 18rem; margin: 20px;">
           <img src={{sut.imageUrl}} class="card-img-top" alt="...">
@@ -76,12 +76,10 @@
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">{{sut.kalori}}</li>
-            {% if sut.gluten == True %}<li class="list-group-item">Gluten İçerir</li>{% endif %}
-            {% if sut.gluten == False %}<li class="list-group-item">Gluten İçermez</li>{% endif %}
             {% if sut.laktoz == True %}<li class="list-group-item">Laktoz İçerir</li>{% endif %}
             {% if sut.laktoz == False %}<li class="list-group-item">Laktoz İçermez</li>{% endif %}
-            {% if sut.vegan == True %}<li class="list-group-item">Vegan</li>{% endif %}
-            {% if sut.vegan == False %}<li class="list-group-item">Vegan değildir</li>{% endif %}
+            {% if sut.organik == True %}<li class="list-group-item">Organik</li>{% endif %}
+            {% if sut.organik == False %}<li class="list-group-item">Organik değildir</li>{% endif %}
             {% if sut.helal == True %}<li class="list-group-item">Helal Sertifikalı</li>{% endif %}
             {% if sut.helal == False %}<li class="list-group-item">Helal Sertifikası içermez</li>{% endif %}
             <li class="list-group-item">{{sut.mensai}}</li>
