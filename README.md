@@ -4,3 +4,5 @@
 
 
 ![w1](https://github.com/zeynep-pixel/foodIngredientResearchWebsite/assets/55032271/d1b96de6-ae36-43ce-8c27-864e6e957c1c)
+
+![w2](https://github.com/zeynep-pixel/foodIngredientResearchWebsite/assets/55032271/2871241f-27e0-4468-a33b-4bdfc9dfe987)
