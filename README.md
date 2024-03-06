@@ -1,4 +1,4 @@
-![Ekran görüntüsü 2024-03-06 215949](https://github.com/zeynep-pixel/foodIngredientResearchWebsite/assets/55032271/bd03b877-1232-413a-b859-478d8902a847)# BSM201 Proje
+# BSM201 Proje
 # Proje Konusu: Gıda İçerik Araştırma Web sitesi 
 # Ekip Üyeleri: Zeynep Tatar(220101087) & Esma Nur Aksoy(220101114)
 
